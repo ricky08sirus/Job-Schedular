@@ -45,6 +45,13 @@ npm run dev
 
 ```
 
+## 🌐 Live Demo
+
+- 🔗 **Frontend** (Admin Dashboard): [https://job-schedular-1jon.vercel.app/admin/import-logs](https://job-schedular-1jon.vercel.app/admin/import-logs)
+- 🔗 **Backend** (REST API): [https://loop-project-pxri.onrender.com/api/import-logs](https://loop-project-pxri.onrender.com/api/import-logs)
+
+---
+
 ## 🧱 System Architecture
 
 Below is the architecture diagram of the entire system:
