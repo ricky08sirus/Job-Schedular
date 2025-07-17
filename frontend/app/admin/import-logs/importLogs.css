@@ -1,0 +1,93 @@
+/* Container */
+.import-logs-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222222;
+  /* default text color */
+}
+
+/* Title */
+.import-logs-container h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 10px;
+  color: #222222;
+}
+
+/* Table */
+.import-logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.import-logs-table thead {
+  background-color: #f5f7fa;
+}
+
+.import-logs-table th,
+.import-logs-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+  color: #222222;
+}
+
+.import-logs-table th {
+  font-weight: 600;
+  color: #333333;
+}
+
+.import-logs-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+/* Status color coding */
+.import-logs-table td.failed {
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+.import-logs-table td.updated {
+  color: #1976d2;
+  font-weight: 500;
+}
+
+.import-logs-table td.new {
+  color: #388e3c;
+  font-weight: 500;
+}
+
+/* Error Examples Cell */
+.import-logs-table td.errors {
+  font-size: 13px;
+  color: #444444;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+/* Error & Empty states */
+.error-msg {
+  background-color: #ffe4e6;
+  color: #b91c1c;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.no-logs {
+  font-style: italic;
+  color: #555555;
+  margin-top: 20px;
+}
