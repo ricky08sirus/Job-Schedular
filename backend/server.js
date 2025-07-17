@@ -6,10 +6,9 @@ const importLogRoutes = require("./routes/importLogs");
 const cors = require("cors");
 
 const app = express();
-
 app.use(
   cors({
-    origin: "https://job-schedular-1jon.vercel.app/",
+    origin: "https://job-schedular-1jon.vercel.app",
     credentials: true,
   }),
 );
